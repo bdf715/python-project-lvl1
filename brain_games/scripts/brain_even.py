@@ -14,10 +14,7 @@ while count < 3:
         print("Correct!")
         count += 1
     else:
-        print("'yes' is wrong answer ;(. Correct answer was 'no'." + "\n" \
-                + "Let's try again, " + name + "!")
+        print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+        print("Let's try again, " + name + "!")
         break
 print("Congratulations, {0}!".format(name))
-        
-
-
