@@ -12,6 +12,7 @@ This repository is created and maintained by Aleksandr Efimovskiy
 
 Hexlet project 1 Brain-games
 
+[example](https://asciinema.org/a/pGuphGGsrbK9sdJ9HGpmwxZeJ)
 
 ##
 
