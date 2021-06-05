@@ -9,5 +9,6 @@ def main():
     game_name = 'brain-calc'
     game_start(game_name)
 
+
 if __name__ == '__main__':
     main()
