@@ -4,6 +4,7 @@ import prompt
 from brain_games.games import brain_calc_game
 from brain_games.games import brain_even_game
 from brain_games.games import brain_gcd_game
+from brain_games.games import brain_progression_game
 
 
 def welcome_user():
@@ -19,6 +20,8 @@ def games(game_name):
         return brain_even_game
     elif game_name == 'brain-gcd':
         return brain_gcd_game
+    elif game_name == 'brain-progression':
+        return brain_progression_game
 
 
 def game_start(game_name):
