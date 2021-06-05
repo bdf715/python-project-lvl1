@@ -1,12 +1,15 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.9.2"
-description = ""
+description = "A set of conlose games. Hexlet Python-programmer first project"
 authors = ["Aleksandr Efimovskiy <bdf715@gmail.com>"]
 packages = [
   { include = "brain_games" },
 ]
-
+classifiers = [
+    "Development Status :: 3 - Alpha",
+]
+repository = "https://github.com/bdf715/python-project-lvl1"
 
 [tool.poetry.dependencies]
 python = "^3.7"
