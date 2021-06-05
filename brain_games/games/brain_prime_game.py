@@ -12,7 +12,7 @@ def game_set():
     data_to_show = str(n)
     correct_answer = 'yes'
     div = n - 1
-    while div in range(2, n+1):
+    while div in range(2, n + 1):
         if n % div == 0:
             correct_answer = 'no'
             break
