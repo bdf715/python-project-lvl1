@@ -8,29 +8,30 @@ from brain_games.games import brain_progression_game
 from brain_games.games import brain_prime_game
 
 
-def welcome_user():
-    '''Ask username, return greetings string.'''
-    name = prompt.string('May I have your name? ')
-    return name
-
-
 def games(game_name):
     if game_name == 'brain-calc':
-        return brain_calc_game
+        used_module =  brain_calc_game
     elif game_name == 'brain-even':
-        return brain_even_game
+        used_module =  brain_even_game
     elif game_name == 'brain-gcd':
-        return brain_gcd_game
+        used_module =  brain_gcd_game
     elif game_name == 'brain-progression':
-        return brain_progression_game
+        used_module =  brain_progression_game
     elif game_name == 'brain-prime':
-        return brain_prime_game
+        used_module = brain_prime_game
+    return used_module
+
+
+def game_greetings(game_name):
+    user_name = prompt.string('May I have your name? ')
+    user_hello = "Hello, {0}!".format(user_name)
+    game_hello  = games(game_name).welcome_string()
+    return (user_name, user_hello, game_hello)
 
 
 def game_start(game_name):
-    user_name = prompt.string('May I have your name? ')
-    print("Hello, {0}!".format(user_name))
-    print(games(game_name).welcome_string())
+    (user_name, user_hello, game_hello) = game_greetings(game_name)
+    print("{0} \n {1}".format(user_hello, game_hello))
     count = 0
     while count < 3:
         data, correct_answer = games(game_name).game_set()
