@@ -33,7 +33,7 @@ def game_start(game_name):
         data, correct_answer = games(game_name).game_set()
         print('Question: ' + data)
         user_answer = prompt.string('Your answer: ')
-        if games(game_name).game_check(user_answer, correct_answer)[0]:
+        if user_answer == correct_answer:
             print('Correct!')
             count += 1
             if count == 3:

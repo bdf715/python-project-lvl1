@@ -13,10 +13,3 @@ def game_set():
     else:
         correct_answer = 'no'
     return (data_to_show, correct_answer)
-
-
-def game_check(user_answer, correct_answer):
-    if user_answer == correct_answer:
-        return (True, user_answer)
-    else:
-        return (False, correct_answer)
