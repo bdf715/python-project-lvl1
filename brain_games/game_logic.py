@@ -3,10 +3,11 @@
 import prompt
 from brain_games.games import brain_calc_game
 from brain_games.games import brain_even_game
+from brain_games.games import brain_gcd_game
 
 
 def welcome_user():
-    """Ask username, return greetings string."""
+    '''Ask username, return greetings string.'''
     name = prompt.string('May I have your name? ')
     return name
 
@@ -16,13 +17,8 @@ def games(game_name):
         return brain_calc_game
     elif game_name == 'brain-even':
         return brain_even_game
-        '''if function == 'welcome':
-            return brain_calc_game.welcome_string()
-        elif function == 'set':
-            return brain_calc_game.game_set()
-        elif function == 'check':
-            return brain_calc_game.game_check()
-        '''
+    elif game_name == 'brain-gcd':
+        return brain_gcd_game
 
 
 def game_start(game_name):
