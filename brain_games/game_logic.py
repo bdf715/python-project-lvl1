@@ -2,6 +2,7 @@
 
 import prompt
 from brain_games.games import brain_calc_game
+from brain_games.games import brain_even_game
 
 
 def welcome_user():
@@ -13,6 +14,8 @@ def welcome_user():
 def games(game_name):
     if game_name == 'brain-calc':
         return brain_calc_game
+    elif game_name == 'brain-even':
+        return brain_even_game
         '''if function == 'welcome':
             return brain_calc_game.welcome_string()
         elif function == 'set':
