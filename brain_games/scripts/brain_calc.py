@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-'''Brain Calc game script'''
+'''brain-calc game script'''
 
 from brain_games.game_logic import game_start
 

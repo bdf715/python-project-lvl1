@@ -1,4 +1,4 @@
-'''Brain Calc game'''
+'''brain-calc game logic'''
 
 from random import randint, choice
 
