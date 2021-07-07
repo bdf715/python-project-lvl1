@@ -26,12 +26,12 @@ def game_greetings(game_name):
     user_name = prompt.string('May I have your name? ')
     user_hello = 'Hello, {0}!'.format(user_name)
     game_hello = games(game_name).welcome_string()
+    print('{0} \n {1}'.format(user_hello, game_hello))
     return (user_name, user_hello, game_hello)
 
 
 def game_start(game_name):
     (user_name, user_hello, game_hello) = game_greetings(game_name)
-    print('{0} \n {1}'.format(user_hello, game_hello))
     count = 0
     while count < 3:
         data, correct_answer = games(game_name).game_set()
@@ -40,10 +40,10 @@ def game_start(game_name):
         if user_answer == correct_answer:
             print('Correct!')
             count += 1
-            if count == 3:
-                print("Congratulations, {0}!".format(user_name))
         else:
-            print("'{0}' is wrong answer ;(. Correct answer was \
-'{1}'.".format(user_answer, correct_answer))
+            print('{0} is wrong answer ;(. Correct answer was \
+{1}.'.format(user_answer, correct_answer))
             print("Let's try again, {0}!".format(user_name))
             break
+        if count == 3:
+            print('Congratulations, {0}!'.format(user_name))
