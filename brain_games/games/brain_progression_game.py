@@ -1,4 +1,4 @@
-"""brain-progression game logic"""
+'''brain-progression game logic'''
 
 from random import randint
 
