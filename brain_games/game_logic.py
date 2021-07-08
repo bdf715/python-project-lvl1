@@ -45,5 +45,5 @@ def game_start(game_name):
 {1}.'.format(user_answer, correct_answer))
             print("Let's try again, {0}!".format(user_name))
             break
-        if count == 3:
-            print('Congratulations, {0}!'.format(user_name))
+    else:
+        print('Congratulations, {0}!'.format(user_name))
