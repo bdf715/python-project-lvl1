@@ -3,8 +3,7 @@
 from random import randint
 
 
-def welcome_string():
-    return 'What number is missing in the progression?'
+welcome_string = 'What number is missing in the progression?'
 
 
 def game_set():

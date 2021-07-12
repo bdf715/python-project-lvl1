@@ -3,8 +3,7 @@
 from random import randint, choice
 
 
-def welcome_string():
-    return 'What is the result of the expression?'
+welcome_string = 'What is the result of the expression?'
 
 
 def game_set():

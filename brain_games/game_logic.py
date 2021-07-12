@@ -7,7 +7,7 @@ def game_greetings(game_module):
     user_question = 'May I have your name? '
     user_name = get_user_input(user_question)
     user_hello = 'Hello, {0}!'.format(user_name)
-    game_hello = game_module.welcome_string()
+    game_hello = game_module.welcome_string
     print('{0} \n {1}'.format(user_hello, game_hello))
     return (user_name, user_hello, game_hello)
 

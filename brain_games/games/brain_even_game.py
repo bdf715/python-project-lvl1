@@ -3,8 +3,7 @@
 from random import randint
 
 
-def welcome_string():
-    return 'Answer "yes" if the number is even, otherwise answer "no".'
+welcome_string = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def game_set():

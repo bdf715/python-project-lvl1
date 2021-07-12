@@ -3,8 +3,7 @@
 from random import randint
 
 
-def welcome_string():
-    return 'Find the greatest common divisor of given numbers.'
+welcome_string = 'Find the greatest common divisor of given numbers.'
 
 
 def gcd(num_min, num_max):

@@ -3,8 +3,7 @@
 from random import randint
 
 
-def welcome_string():
-    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
+welcome_string = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def game_set():
