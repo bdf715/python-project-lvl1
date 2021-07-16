@@ -3,11 +3,11 @@
 '''brain-progression game script'''
 
 from brain_games.game_logic import game_start
-from brain_games.games import brain_progression_game
+from brain_games.games import brain_progression
 
 
 def main():
-    game_module = brain_progression_game
+    game_module = brain_progression
     game_start(game_module)
 
 
