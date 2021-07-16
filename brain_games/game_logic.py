@@ -3,17 +3,21 @@
 from brain_games.cli import get_user_input
 
 
-def game_greetings(game_module):
-    user_question = 'May I have your name? '
-    user_name = get_user_input(user_question)
+def say_user_hello(user_name, game_module):
     user_hello = 'Hello, {0}!'.format(user_name)
     game_hello = game_module.welcome_string
     print('{0} \n {1}'.format(user_hello, game_hello))
-    return (user_name, user_hello, game_hello)
+
+
+def get_user_name():
+    user_question = 'May I have your name? '
+    user_name = get_user_input(user_question)
+    return user_name
 
 
 def game_start(game_module):
-    (user_name, user_hello, game_hello) = game_greetings(game_module)
+    user_name = get_user_name()
+    say_user_hello(user_name, game_module)
     count = 0
     total_count = 3
     while count < total_count:
