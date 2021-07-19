@@ -10,7 +10,7 @@ This repository is created and maintained by Aleksandr Efimovskiy
 
 Hexlet project 1 Brain-games
 
-[![asciicast](https://asciinema.org/a/59j6j3BocmmsLSYb3vu4r9x6Y.svg)](https://asciinema.org/a/59j6j3BocmmsLSYb3vu4r9x6Y)
+[![asciicast](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm.svg)](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm)
 
 ##
 
@@ -21,4 +21,4 @@ This project was built using these tools:
 | Tool                                                                        | Description                                             |
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
 | [poetry](https://poetry.eustace.io/)                                        | "Python dependency management and packaging made easy"  |
-| [pep8 python styleguide](https://www.python.org/dev/peps/pep-0008/)         | "Python linter"                                         |
+| [flake8](https://pypi.org/project/flake8/)                                  | "Python PEP8 linter"                                    |
