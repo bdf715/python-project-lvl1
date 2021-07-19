@@ -1,4 +1,4 @@
-"""brain-even game logic"""
+'''brain-even game logic'''
 
 from random import randint
 

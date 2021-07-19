@@ -1,4 +1,4 @@
-"""Brain-games CLI."""
+'''"""'''Brain-games CLI.'''
 
 import prompt
 

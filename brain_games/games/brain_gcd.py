@@ -1,4 +1,4 @@
-'''brain gcd game logic'''
+'''brain-gcd game logic'''
 
 from random import randint
 
