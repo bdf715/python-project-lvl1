@@ -3,7 +3,9 @@
 from random import randint
 
 
-welcome_string = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+WELCOME_STRING = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+FIRST_ELEMENT_MIN = 1
+FIRST_ELEMENT_MAX = 100
 
 
 def is_prime(n):
@@ -19,7 +21,7 @@ def is_prime(n):
 
 
 def game_set():
-    n = randint(1, 100)
+    n = randint(FIRST_ELEMENT_MIN, FIRST_ELEMENT_MAX)
     data_to_show = str(n)
     correct_answer = 'yes' if is_prime(n) else 'no'
     return (data_to_show, correct_answer)

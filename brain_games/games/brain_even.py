@@ -3,7 +3,9 @@
 from random import randint
 
 
-welcome_string = 'Answer "yes" if the number is even, otherwise answer "no".'
+WELCOME_STRING = 'Answer "yes" if the number is even, otherwise answer "no".'
+FIRST_ELEMENT_MIN = 1
+FIRST_ELEMENT_MAX = 100
 
 
 def is_even(number):
@@ -11,7 +13,7 @@ def is_even(number):
 
 
 def game_set():
-    number = randint(1, 100)
+    number = randint(FIRST_ELEMENT_MIN, FIRST_ELEMENT_MAX)
     data_to_show = str(number)
     correct_answer = 'yes' if is_even(number) else 'no'
     return (data_to_show, correct_answer)

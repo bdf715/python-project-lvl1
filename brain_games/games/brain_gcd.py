@@ -3,7 +3,9 @@
 from random import randint
 
 
-welcome_string = 'Find the greatest common divisor of given numbers.'
+WELCOME_STRING = 'Find the greatest common divisor of given numbers.'
+FIRST_ELEMENT_MIN = 1
+FIRST_ELEMENT_MAX = 100
 
 
 def get_gcd(num_min, num_max):
@@ -20,8 +22,8 @@ def get_sorted(a, b):
 
 
 def game_set():
-    a = randint(1, 100)
-    b = randint(1, 100)
+    a = randint(FIRST_ELEMENT_MIN, FIRST_ELEMENT_MAX)
+    b = randint(FIRST_ELEMENT_MIN, FIRST_ELEMENT_MAX)
     data_to_show = '{0} {1}'.format(a, b)
     (a, b) = get_sorted(a, b)
     div = a

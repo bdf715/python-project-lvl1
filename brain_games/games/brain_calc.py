@@ -3,9 +3,7 @@
 from random import randint, choice
 
 
-welcome_string = 'What is the result of the expression?'
-
-
+WELCOME_STRING = 'What is the result of the expression?'
 OPERATIONS = ['+', '-', '*']
 
 
