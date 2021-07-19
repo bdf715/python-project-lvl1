@@ -4,18 +4,18 @@ from random import randint
 
 
 welcome_string = 'What number is missing in the progression?'
-LENGTH_MIN = 5
-LENGTH_MAX = 10
-FIRST_ELEMENT_MIN = 5
-FIRST_ELEMENT_MAX = 15
-DELTA_MIN = 5
-DELTA_MAX = 15
+length_min = 5
+length_max = 10
+first_element_min = 5
+first_element_max = 15
+delta_min = 5
+delta_max = 15
 
 
 def get_progression():
-    length = randint(LENGTH_MIN, LENGTH_MAX)
-    first_element = randint(FIRST_ELEMENT_MIN, FIRST_ELEMENT_MAX)
-    delta = randint(DELTA_MIN, DELTA_MAX)
+    length = randint(length_min, length_max)
+    first_element = randint(first_element_min, first_element_max)
+    delta = randint(delta_min, delta_max)
     progression = []
     for step in range(0, length):
         element = first_element + delta * step
