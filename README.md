@@ -3,7 +3,6 @@
 [![Python CI](https://github.com/bdf715/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)](https://github.com/bdf715/python-project-lvl1/actions/workflows/pyci.yml)
 [![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0812737a355036c42eb7/maintainability)](https://codeclimate.com/github/bdf715/python-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/0812737a355036c42eb7/test_coverage)](https://codeclimate.com/github/bdf715/python-project-lvl1/test_coverage)
 ##
 
 
