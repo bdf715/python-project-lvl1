@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.9.4"
+version = "1.0.0"
 description = "A set of conlose games. Hexlet Python-programmer first project"
 authors = ["Aleksandr Efimovskiy <bdf715@gmail.com>"]
 packages = [
