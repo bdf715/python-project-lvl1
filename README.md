@@ -8,7 +8,7 @@
 
 This repository is created and maintained by Aleksandr Efimovskiy
 
-Hexlet project 1 
+Hexlet project
 
 Brain-games
 
