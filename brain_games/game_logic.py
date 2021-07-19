@@ -5,7 +5,7 @@ from brain_games.cli import get_user_input
 
 def say_user_hello(user_name, game_module):
     user_hello = 'Hello, {0}!'.format(user_name)
-    game_hello = game_module.welcome_string
+    game_hello = game_module.WELCOME_STRING
     print('{0} \n {1}'.format(user_hello, game_hello))
 
 
