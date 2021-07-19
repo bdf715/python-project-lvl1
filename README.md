@@ -8,7 +8,9 @@
 
 This repository is created and maintained by Aleksandr Efimovskiy
 
-Hexlet project 1 Brain-games
+Hexlet project 1 
+
+Brain-games
 
 [![asciicast](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm.svg)](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm)
 
