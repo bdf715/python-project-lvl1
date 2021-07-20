@@ -8,7 +8,8 @@
 
 This repository was created and maintained by Aleksandr Efimovskiy
 
-[![asciicast](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm.svg)](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm)
+
+[![asciicast](https://asciinema.org/a/ZG8xDBGb0gkTgjUKnIwzE6yyc.svg)](https://asciinema.org/a/ZG8xDBGb0gkTgjUKnIwzE6yyc)
 
 
 ### Install
