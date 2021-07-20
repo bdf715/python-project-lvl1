@@ -16,6 +16,33 @@ Brain-games
 
 ##
 
+### Install
+
+1. Download repository
+'''
+git clone https://github.com/bdf715/python-project-lvl1.git
+'''
+
+2. Make sure you have poetry and make installed on your machine
+'''
+cd python-project-lvl1
+make install
+make build
+make package-install
+'''
+
+This will install brain-games in current user environment
+
+3. To run games:
+
+'''
+brain-calc
+brain-even
+brain-progression
+brain-prime
+brain-gcd
+'''
+
 ### Links
 
 This project was built using these tools:
@@ -24,3 +51,4 @@ This project was built using these tools:
 |-----------------------------------------------------------------------------|---------------------------------------------------------|
 | [poetry](https://poetry.eustace.io/)                                        | "Python dependency management and packaging made easy"  |
 | [flake8](https://pypi.org/project/flake8/)                                  | "Python PEP8 linter"                                    |
+| [make](https://www.gnu.org/software/make/)                                  | "GNU utility, used to  build and install your package without knowing the details of how that is done" |
