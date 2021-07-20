@@ -1,20 +1,15 @@
 # brain-games
 
 [![Python CI](https://github.com/bdf715/python-project-lvl1/actions/workflows/pyci.yml/badge.svg)](https://github.com/bdf715/python-project-lvl1/actions/workflows/pyci.yml)
-[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![hexlet-ckeck](https://github.com/bdf715/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/bdf715/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0812737a355036c42eb7/maintainability)](https://codeclimate.com/github/bdf715/python-project-lvl1/maintainability)
+[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 ##
 
-
-This repository is created and maintained by Aleksandr Efimovskiy
-
-Hexlet project
-
-Brain-games
+This repository was created and maintained by Aleksandr Efimovskiy
 
 [![asciicast](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm.svg)](https://asciinema.org/a/Ld7Wi46lUyBKqVKWXHKWRpKDm)
 
-##
 
 ### Install
 
