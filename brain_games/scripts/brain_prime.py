@@ -7,8 +7,7 @@ from brain_games.games import brain_prime
 
 
 def main():
-    game_module = brain_prime
-    game_start(game_module)
+    game_start(brain_prime)
 
 
 if __name__ == '__main__':
