@@ -19,29 +19,29 @@ Brain-games
 ### Install
 
 1. Download repository
-'''
+```
 git clone https://github.com/bdf715/python-project-lvl1.git
-'''
+```
 
 2. Make sure you have poetry and make installed on your machine
-'''
+```
 cd python-project-lvl1
 make install
 make build
 make package-install
-'''
+```
 
 This will install brain-games in current user environment
 
 3. To run games:
 
-'''
+```
 brain-calc
 brain-even
 brain-progression
 brain-prime
 brain-gcd
-'''
+```
 
 ### Links
 
