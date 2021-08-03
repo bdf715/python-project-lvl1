@@ -25,9 +25,7 @@ def game_start(game_module):
             print('Correct!')
             count += 1
         else:
-            print('{0} is wrong answer ;(. Correct answer was \
-{1}.'.format(user_answer, correct_answer))
-            print("Let's try again, {0}!".format(user_name))
-            break
+            return print("{0} is wrong answer ;(. Correct answer was \
+{1}.\nLet's try again, {2}!".format(user_answer, correct_answer, user_name))
     else:
         print('Congratulations, {0}!'.format(user_name))
