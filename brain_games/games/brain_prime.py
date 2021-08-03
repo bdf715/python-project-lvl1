@@ -13,8 +13,7 @@ def is_prime(n):
     div = n - 1
     while div in range(2, n):
         if n % div == 0:
-            result = False
-            break
+            return False
         else:
             div -= 1
     return result
