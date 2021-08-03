@@ -12,10 +12,7 @@ DELTA_MIN = 5
 DELTA_MAX = 15
 
 
-def get_progression():
-    length = randint(LENGTH_MIN, LENGTH_MAX)
-    first_element = randint(FIRST_ELEMENT_MIN, FIRST_ELEMENT_MAX)
-    delta = randint(DELTA_MIN, DELTA_MAX)
+def get_progression(first_element, delta, length):
     progression = []
     for step in range(0, length):
         element = first_element + delta * step
@@ -24,7 +21,10 @@ def get_progression():
 
 
 def game_set():
-    progression = get_progression()
+    length = randint(LENGTH_MIN, LENGTH_MAX)
+    first_element = randint(FIRST_ELEMENT_MIN, FIRST_ELEMENT_MAX)
+    delta = randint(DELTA_MIN, DELTA_MAX)
+    progression = get_progression(first_element, delta, length)
     random_index = randint(0, len(progression) - 1)
     random_element = progression[random_index]
     progression[random_index] = '..'
